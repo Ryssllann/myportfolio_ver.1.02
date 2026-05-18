@@ -1,0 +1,196 @@
+/*Main CSS*/
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+body {
+    background-image: url('../images/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    text-align: left;
+    font-size: lem;
+    min-height: 100%;
+}
+
+.container {
+    margin: 0;
+    padding: 0; 
+}
+
+.start {
+    background-color: #07404d;
+    cursor: pointer;
+}
+
+.hr-line {
+    margin: 5px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 6px solid #1a808c;
+    width: 45%
+}
+
+.trans-eclipse {
+    margin-top: 5px;
+}
+
+.top-line {
+    margin-top: 30px;
+}
+
+.active {
+    background-color: #1a808c;
+}
+ 
+
+.border-line {
+    border: 3px solid #1a808c;
+}
+
+.border-lineactive {
+    border: 1px solid #1a808c;
+}
+
+.eclipse {
+    margin-left: 4%;
+}
+
+.fs-1 {
+    color: #126673;
+}
+
+.arrow {
+    margin-top: 200px;
+}
+
+.scaled-arrow {
+    display: inline-block;
+    transform: scale(2.5, 20.5);
+}
+
+.number {
+    color: #1a808c;
+    font-size: 350%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.arrow-number {
+    margin-top: 330px;
+}
+
+.discover {
+    backdrop-filter: blur(55px)
+}
+
+.world-travel {
+    background-color: #ffffff;
+    border-radius: 0 0 25px 25px;
+}
+
+.grey-line {
+    border: 1px solid #c4c4c2;
+}
+
+.home-text {
+    color: #07404d;
+    font-size: 200%;
+    text-align: center;
+}
+
+.home-text a {
+    color: #07404d;
+    display: block;
+    text-decoration: none;
+}
+
+.home-text a:hover {
+    text-decoration: underline;
+}
+
+.discover h3 {
+    color: #ffffff;
+}
+
+.discovery {
+    color: #ffffff;
+    font-weight: normal;
+    text-align: right;
+
+}
+
+.world {
+    color: #ffffff;
+    font-size: 1950%;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -79px;
+}
+
+.land {
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 350%;
+}
+
+.lorem {
+    color: #767878;
+    font-size: 150%;
+}
+
+.book {
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    font-size: 197%;
+}
+
+.button-arrow {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+} 
+
+.social-media {
+    background-color: #d5cfce;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    padding-top: 36px;
+    padding-bottom: 18px;
+    position: relative;
+    left: 70%;
+    width: 66%;
+}
+
+.world-left {
+    backdrop-filter: none;
+}
+
+.world-travel {
+    position: relative;
+    left: 50%;
+}
+
+.world-word {
+    margin-top: 40%;
+    
+}
+
+

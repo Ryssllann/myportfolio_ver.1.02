@@ -1,0 +1,78 @@
+/*Main CSS*/
+
+:root {
+    --color1: #dedfe1;
+    --color2: #abb1af;
+    --color3: #000000;
+    
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+body {
+    background: var(--color1);
+    text-align: left;
+    font-size: lem;
+    min-height: 100%;
+}
+
+.row_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.row_col {
+    background-color: var(--color3);
+    height: 155px;
+    color: var(--color1);
+    margin-left: 3%;
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.word_1 {
+    color: var(--color2);
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.word_1 a {
+    display: block;
+}
+
+.word_2 {
+    font-size: 350%;
+    font-weight: bold;
+    color: var(--color2);
+}
+
+.word_3 {
+    font-size: 250%;
+    font-weight: bold;
+    color: var(--color2);
+}
+
+.site-1 {
+    background-image: url('../images/site_1.png');
+    background-size: cover;
+}
+
+.site-1 div {
+    margin: 0;
+    padding: 0;
+}
+.site-1 a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
