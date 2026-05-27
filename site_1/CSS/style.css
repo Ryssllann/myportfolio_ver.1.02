@@ -84,15 +84,16 @@ body {
 
 .number {
     color: #1a808c;
-    font-size: 350%;
+    font-size: 300%;
     font-weight: bold;
     margin: 0;
     padding: 0;
-    text-align: center;
+
 }
 
 .arrow-number {
     margin-top: 304px;
+
 }
 
 .discoveries {
